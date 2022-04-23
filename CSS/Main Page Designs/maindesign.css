@@ -1,0 +1,76 @@
+/* Page Design */
+html {
+    background-color: #a28f46
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+    padding-top: 5px;
+}
+
+.mainarea {
+    border-top: 3px solid #9a0911;
+    border-bottom: 3px solid #9a0911;
+    float: left;
+}
+
+h1 {
+    color: #bd0d00;
+    text-align: center;
+    font-size: 250%;
+    border: 5px solid #000000;
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+/* Navigation Design */
+.mainnav {
+    margin-top: 20;
+}
+
+.mainnav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.mainnav a {
+    display: block;
+    color: #a28f46;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #9a0911;
+    border-bottom: none;
+    font-size: 20px;
+}
+
+.mainnav a:hover {
+    background-color: #1c1c1c
+}
+
+/* Clear */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear:both
+}
+
+.group {
+    zoom: 1;
+}

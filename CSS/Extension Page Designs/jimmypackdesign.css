@@ -1,0 +1,22 @@
+html {
+    background-color: #00ffff;
+    background-image: url(../assets/images/Jimmy.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+h1 {
+    color: #e2eeff;
+    background-color: #ff0000;
+    border-color: #000000;
+    font-size: 250%;
+    text-align: center;
+}
+
+a {
+    color: #ffa500;
+}
+
+.homepage {
+    color: #ffff00;
+}
